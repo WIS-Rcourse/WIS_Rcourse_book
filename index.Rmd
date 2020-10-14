@@ -32,6 +32,9 @@ large scale data analysis using R' taught at the Weizmann Institute of Science.
 |[Yaara Finkel](mailto:yaara.finkel@weizmann.ac.il)| |
 |[Hugo Schweke](mailto:hugo.schweke@weizmann.ac.il)| |
 
+|**Former TAs** | |
+|:--|--:|
+|[Benjamin Dubreuil](mailto:dubreuil.benjamin@gmail.com)| |
 
 **Contributing to the book**
 
