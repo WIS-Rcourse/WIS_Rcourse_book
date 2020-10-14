@@ -1,0 +1,52 @@
+--- 
+title: "WIS Rcourse"
+author: "WIS Rcourse Staff"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "This is a companion Rbook for the course 'Principles and practice of large scale data analysis using R' taught at the Weizmann Institute of Science"
+---
+
+# Presentation
+
+**Welcome to the WIS R course!**
+
+This book will be a companion text for the course 'Principles and practice of
+large scale data analysis using R' taught at the Weizmann Institute of Science.
+
+**Lecturers**
+
+| | |
+|:--|--:|
+|* Emmanuelle Levy |![](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.weizmann.ac.il%2Fsb%2Ffaculty_pages%2FELevy%2Fimages%2Fpeople%2Felevy.jpg&f=1&nofb=1){height=100px}|
+|* Schraga Schwartz |![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cnaf.org.cn%2Fwp-content%2Fuploads%2F2019%2F08%2FSchraga-Schwartz.jpg){height=100px} |
+|* Igor Ulitzky |![](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblavatnikawards.org%2Fmedia%2Ffiler_public_thumbnails%2Ffiler_public%2Fd4%2Fee%2Fd4ee2659-4384-4993-885d-06b864213180%2Figor_ulitsky_headshot-250x375.jpg__445x564_q85.jpg){height=100px}|
+
+**Teaching Assistants**
+
+| | |
+|:--|--:|
+|* [Miguel Angel García Campos](https://angelcampos.github.io/)| ![](https://pbs.twimg.com/profile_images/1315038164222967810/atIJmERS_400x400.jpg){height=100px}|
+|* [Yaara Finkel](mailto:yaara.finkel@weizmann.ac.il)| |
+|* [Hugo Schweke](mailto:hugo.schweke@weizmann.ac.il)| |
+ 
+ 
+ ## Contributing to the book
+ 
+ Students are encouraged to contribute to the book giving feedback and proposing
+ changes via GitHub (pull request, for experienced users). Mainly through the
+ use of the disqus comments section at the bottom of each chapter. **Note**: 
+ Even if you are experienced with git and programming consider talking in the
+ discussion section before investing a lof of time in the whole process.
+ Let's talk!
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

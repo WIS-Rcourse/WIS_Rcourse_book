@@ -1,0 +1,43 @@
+# Introduction {#intro}
+
+Let's make a short introduction for BEFORE the first class.
+
+Outline: 
+
+* A brief definition of programming and programming language.
+* Why would you want to learn programming, and specifically using R.
+* How to install R and Rstudio.
+* Rstudio IDE
+  + The R console: Writing your first lines of R code.
+  + The text editor: Saving your code.
+  + Other windows and tabs: Environment, Files, Plots, and Help.
+* Saving your code, objects and session.
+
+You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway.
+
+This is an example of how to make a fiure with captions and other parameters.
+
+```{r iris-fig, fig.cap='The iris dataset.', out.width='80%', fig.asp=.75, fig.align='center'}
+par(mar = c(4, 4, .1, .1))
+plot(iris, col = iris$Species, main = "The iris dataset", pch = 16)
+```
+
+Reference a figure by its code chunk label with the `fig:` prefix, e.g., 
+see Figure \@ref(fig:iris-fig). 
+
+Similarly, you can reference tables generated from `knitr::kable()`, e.g., 
+see Table \@ref(tab:iris-tab).
+
+```{r iris-tab, tidy=FALSE}
+knitr::kable(
+  head(iris, 20), caption = 'Here is a nice table!',
+  booktabs = TRUE
+)
+```
+
+You can write citations, too. For example, we are using the **bookdown** 
+package [@R-bookdown] in this sample book, which was built on top of R 
+Markdown and **knitr** [@xie2015]. Bibliography is saved on *.bib files in the
+main directory, in this case packages bibliography is created on the
+"packages.bib" file.
+
