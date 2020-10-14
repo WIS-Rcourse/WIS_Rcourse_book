@@ -40,9 +40,9 @@ changes through the use of the disqus comments section at the bottom of each
 chapter, and through git pull requests by forking the book's 
 [GitHub Repository](https://github.com/WIS-Rcourse/WIS_Rcourse_book). 
 
-*Note:Even if you are experienced with git and programming, consider discussing in the
-comments section before investing a lof of time in the whole process of forking,
-editing, and pull requesting.* **Let's talk!**
+*Note:Even if you are experienced with git and programming, consider writing us
+some lines in the comments section before investing a lof of time in the whole 
+process of forking, editing, and pull requesting.* **Let's talk!**
 
 
 ```{r include=FALSE}
