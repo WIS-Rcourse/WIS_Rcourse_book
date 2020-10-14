@@ -37,7 +37,6 @@ knitr::kable(
 
 You can write citations, too. For example, we are using the **bookdown** 
 package [@R-bookdown] in this sample book, which was built on top of R 
-Markdown and **knitr** [@xie2015]. Bibliography is saved on *.bib files in the
+Markdown and **knitr** [@xie2015]. Bibliography is saved on .bib files in the
 main directory, in this case packages bibliography is created on the
 "packages.bib" file.
-
