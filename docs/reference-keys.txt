@@ -1,4 +1,0 @@
-fig:iris-fig
-tab:iris-tab
-presentation
-intro
