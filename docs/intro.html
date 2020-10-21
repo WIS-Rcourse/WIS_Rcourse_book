@@ -24,7 +24,7 @@
 <meta name="author" content="Chapter 2 Introduction | WIS Rcourse Staff" />
 
 
-<meta name="date" content="2020-10-18" />
+<meta name="date" content="2020-10-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -50,69 +50,9 @@
 
 
 
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
-<style type="text/css">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
-}
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  { background-color: #f8f8f8; }
-@media screen {
-a.sourceLine::before { text-decoration: underline; }
-}
-code span.al { color: #ef2929; } /* Alert */
-code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #c4a000; } /* Attribute */
-code span.bn { color: #0000cf; } /* BaseN */
-code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4e9a06; } /* Char */
-code span.cn { color: #000000; } /* Constant */
-code span.co { color: #8f5902; font-style: italic; } /* Comment */
-code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
-code span.dt { color: #204a87; } /* DataType */
-code span.dv { color: #0000cf; } /* DecVal */
-code span.er { color: #a40000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #0000cf; } /* Float */
-code span.fu { color: #000000; } /* Function */
-code span.im { } /* Import */
-code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
-code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
-code span.ot { color: #8f5902; } /* Other */
-code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
-code span.sc { color: #000000; } /* SpecialChar */
-code span.ss { color: #4e9a06; } /* SpecialString */
-code span.st { color: #4e9a06; } /* String */
-code span.va { color: #000000; } /* Variable */
-code span.vs { color: #4e9a06; } /* VerbatimString */
-code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
-</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -131,7 +71,11 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Presentation</a></li>
-<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a><ul>
+<li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#what-will-this-course-be-about"><i class="fa fa-check"></i><b>2.1</b> What will this course be about?</a></li>
+<li class="chapter" data-level="2.2" data-path="intro.html"><a href="intro.html#what-is-r-and-why-learning-r"><i class="fa fa-check"></i><b>2.2</b> What is R and why learning R?</a></li>
+<li class="chapter" data-level="2.3" data-path="intro.html"><a href="intro.html#installation-and-rstudio"><i class="fa fa-check"></i><b>2.3</b> Installation and Rstudio</a></li>
+</ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -155,206 +99,54 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="intro" class="section level1">
 <h1><span class="header-section-number">Chapter 2</span> Introduction</h1>
-<p>Let’s make a short introduction for BEFORE the first class.</p>
-<p>Outline:</p>
-<ul>
-<li>A brief definition of programming and programming language.</li>
-<li>Why would you want to learn programming, and specifically using R.</li>
-<li>How to install R and Rstudio.</li>
-<li>Rstudio IDE
-<ul>
-<li>The R console: Writing your first lines of R code.</li>
-<li>The text editor: Saving your code.</li>
-<li>Other windows and tabs: Environment, Files, Plots, and Help.</li>
-</ul></li>
-<li>Saving your code, objects and session.</li>
-</ul>
-<p>You can label chapter and section titles using <code>{#label}</code> after them, e.g., we can reference Chapter <a href="intro.html#intro">2</a>. If you do not manually label them, there will be automatic labels anyway.</p>
-<p>This is an example of how to make a fiure with captions and other parameters.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">par</span>(<span class="dt">mar =</span> <span class="kw">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, <span class="fl">.1</span>, <span class="fl">.1</span>))</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="kw">plot</span>(iris, <span class="dt">col =</span> iris<span class="op">$</span>Species, <span class="dt">main =</span> <span class="st">&quot;The iris dataset&quot;</span>, <span class="dt">pch =</span> <span class="dv">16</span>)</a></code></pre></div>
-<div class="figure" style="text-align: center"><span id="fig:iris-fig"></span>
-<img src="WIS_Rcourse_book_files/figure-html/iris-fig-1.png" alt="The iris dataset." width="80%" />
-<p class="caption">
-Figure 2.1: The iris dataset.
-</p>
+<div id="what-will-this-course-be-about" class="section level2">
+<h2><span class="header-section-number">2.1</span> What will this course be about?</h2>
+<p>This will be an introductory course to programming in R and biological data
+analysis. We will learn to load data into R, mainly from tables but also
+biologically oriented data formats such as FASTA files. It is primarily directed
+to graduate students in the Life Sciences at the Weizmman Institute of Science
+but open for auditors of neighboring institutions. There are no prerequisites
+for the course, we will build from the most basic analysis concepts and
+operations to the more complex ones throughout the course. We will not delve
+deeply into the algorithmic nature of some tools, but rather focus on
+understanding the intuition and enable students to perform and understand
+widely used analysis such as PCA, hierarchical clustering and linear regression.</p>
 </div>
-<p>Reference a figure by its code chunk label with the <code>fig:</code> prefix, e.g.,
-see Figure <a href="intro.html#fig:iris-fig">2.1</a>.</p>
-<p>Similarly, you can reference tables generated from <code>knitr::kable()</code>, e.g.,
-see Table <a href="intro.html#tab:iris-tab">2.1</a>.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">kable</span>(</a>
-<a class="sourceLine" id="cb2-2" data-line-number="2">  <span class="kw">head</span>(iris, <span class="dv">20</span>), <span class="dt">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,</a>
-<a class="sourceLine" id="cb2-3" data-line-number="3">  <span class="dt">booktabs =</span> <span class="ot">TRUE</span></a>
-<a class="sourceLine" id="cb2-4" data-line-number="4">)</a></code></pre></div>
-<table>
-<caption><span id="tab:iris-tab">Table 2.1: </span>Here is a nice table!</caption>
-<thead>
-<tr class="header">
-<th align="right">Sepal.Length</th>
-<th align="right">Sepal.Width</th>
-<th align="right">Petal.Length</th>
-<th align="right">Petal.Width</th>
-<th align="left">Species</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="right">5.1</td>
-<td align="right">3.5</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.9</td>
-<td align="right">3.0</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.7</td>
-<td align="right">3.2</td>
-<td align="right">1.3</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.6</td>
-<td align="right">3.1</td>
-<td align="right">1.5</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.0</td>
-<td align="right">3.6</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.4</td>
-<td align="right">3.9</td>
-<td align="right">1.7</td>
-<td align="right">0.4</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.6</td>
-<td align="right">3.4</td>
-<td align="right">1.4</td>
-<td align="right">0.3</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.0</td>
-<td align="right">3.4</td>
-<td align="right">1.5</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.4</td>
-<td align="right">2.9</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.9</td>
-<td align="right">3.1</td>
-<td align="right">1.5</td>
-<td align="right">0.1</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.4</td>
-<td align="right">3.7</td>
-<td align="right">1.5</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.8</td>
-<td align="right">3.4</td>
-<td align="right">1.6</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.8</td>
-<td align="right">3.0</td>
-<td align="right">1.4</td>
-<td align="right">0.1</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.3</td>
-<td align="right">3.0</td>
-<td align="right">1.1</td>
-<td align="right">0.1</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.8</td>
-<td align="right">4.0</td>
-<td align="right">1.2</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.7</td>
-<td align="right">4.4</td>
-<td align="right">1.5</td>
-<td align="right">0.4</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.4</td>
-<td align="right">3.9</td>
-<td align="right">1.3</td>
-<td align="right">0.4</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.1</td>
-<td align="right">3.5</td>
-<td align="right">1.4</td>
-<td align="right">0.3</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.7</td>
-<td align="right">3.8</td>
-<td align="right">1.7</td>
-<td align="right">0.3</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.1</td>
-<td align="right">3.8</td>
-<td align="right">1.5</td>
-<td align="right">0.3</td>
-<td align="left">setosa</td>
-</tr>
-</tbody>
-</table>
-<p>You can write citations, too. For example, we are using the <strong>bookdown</strong>
-package <span class="citation">(Xie <a href="#ref-R-bookdown">2020</a>)</span> in this sample book, which was built on top of R
-Markdown and <strong>knitr</strong> <span class="citation">(Xie <a href="#ref-xie2015">2015</a>)</span>. Bibliography is saved on .bib files in the
-main directory, in this case packages bibliography is created on the
-“packages.bib” file.</p>
+<div id="what-is-r-and-why-learning-r" class="section level2">
+<h2><span class="header-section-number">2.2</span> What is R and why learning R?</h2>
+<p>R is a programming language, and as such is at heart a way to give instructions
+to computers. It is widely used from academia to industry for its emphasis on
+statistics and graphics. R is also free software, and it is licensed under a
+GNU General Public License, which allows its use even for commercial purposes
+without the need to pay a fee or usage license.</p>
+<p>R is a quite popular language, currently ranks as 7th most popular language in the
+world and 4th in the US, according to the <a href="https://pypl.github.io/PYPL.html">PYPL index</a>.</p>
+<p>But probably most important for us is, that many scientists, bioinformaticians, and software
+developers have organized to establish the <a href="https://bioconductor.org/">Bioconductor Project</a>.
+A project which purpose is to develop R packages, code that extends R
+functionality, enabling a more straight-forward biologically-oriented data analysis.</p>
+</div>
+<div id="installation-and-rstudio" class="section level2">
+<h2><span class="header-section-number">2.3</span> Installation and Rstudio</h2>
+<p>To be prepared for the first class <strong>it is mandatory that you install R and Rstudio</strong>
+(a development environment for R) <strong>before the classes start</strong>.
+Here we point you to the relevant web pages, but if needed you will find tons of
+online material elsewhere (YouTube ;) ) on the step-by-step installation process.</p>
+<ol style="list-style-type: decimal">
+<li>To install R head to the <a href="https://www.r-project.org/">R-project’s web page</a>
+click <strong>download R</strong>. Choose a mirror location close to you for a faster download,
+but any will do. Then choose between operative systems. R runs in Mac,
+Windows and most UNIX-like environments. Read and follow the instructions in site.</li>
+<li>To install RStudio head to their <a href="https://rstudio.com/products/rstudio/download/#download">download web site</a>,
+download and install the relevant version for your computer’s OS.</li>
+</ol>
+<p>You should <strong>first</strong> install R and only then install Rstudio. Rstudio will look
+for your R installation, if it is not already there you will have to configure it
+afterwards, which can be troublesome.</p>
+<p>Hopefully you are not yet intimidated, don’t be afraid. If you run into
+troubles that cannot solve contact the Teaching Assistants, they’ll be glad to
+help you out. See you in the next chapter and class!</p>
 
-</div>
-<h3>References</h3>
-<div id="refs" class="references">
-<div id="ref-xie2015">
-<p>Xie, Yihui. 2015. <em>Dynamic Documents with R and Knitr</em>. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. <a href="http://yihui.org/knitr/">http://yihui.org/knitr/</a>.</p>
-</div>
-<div id="ref-R-bookdown">
-<p>Xie, Yihui. 2020. <em>Bookdown: Authoring Books and Technical Documents with R Markdown</em>. <a href="https://github.com/rstudio/bookdown">https://github.com/rstudio/bookdown</a>.</p>
 </div>
 </div>
 <div id="disqus_thread"></div>

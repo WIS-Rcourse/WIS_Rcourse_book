@@ -1,42 +1,52 @@
 # Introduction {#intro}
 
-Let's make a short introduction for BEFORE the first class.
+## What will this course be about?
 
-Outline: 
+This will be an introductory course to programming in R and biological data
+analysis. We will learn to load data into R, mainly from tables but also 
+biologically oriented data formats such as FASTA files. It is primarily directed
+to graduate students in the Life Sciences at the Weizmman Institute of Science
+but open for auditors of neighboring institutions. There are no prerequisites
+for the course, we will build from the most basic analysis concepts and
+operations to the more complex ones throughout the course. We will not delve
+deeply into the algorithmic nature of some tools, but rather focus on 
+understanding the intuition and enable students to perform and understand
+widely used analysis such as PCA, hierarchical clustering and linear regression.
 
-* A brief definition of programming and programming language.
-* Why would you want to learn programming, and specifically using R.
-* How to install R and Rstudio.
-* Rstudio IDE
-  + The R console: Writing your first lines of R code.
-  + The text editor: Saving your code.
-  + Other windows and tabs: Environment, Files, Plots, and Help.
-* Saving your code, objects and session.
+## What is R and why learning R?
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway.
+R is a programming language, and as such is at heart a way to give instructions 
+to computers. It is widely used from academia to industry for its emphasis on 
+statistics and graphics. R is also free software, and it is licensed under a
+GNU General Public License, which allows its use even for commercial purposes 
+without the need to pay a fee or usage license.
 
-This is an example of how to make a fiure with captions and other parameters.
+R is a quite popular language, currently ranks as 7th most popular language in the
+world and 4th in the US, according to the [PYPL index](https://pypl.github.io/PYPL.html).
 
-```{r iris-fig, fig.cap='The iris dataset.', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(iris, col = iris$Species, main = "The iris dataset", pch = 16)
-```
+But probably most important for us is, that many scientists, bioinformaticians, and software 
+developers have organized to establish the [Bioconductor Project](https://bioconductor.org/).
+A project which purpose is to develop R packages, code that extends R 
+functionality, enabling a more straight-forward biologically-oriented data analysis. 
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., 
-see Figure \@ref(fig:iris-fig). 
+## Installation and Rstudio
 
-Similarly, you can reference tables generated from `knitr::kable()`, e.g., 
-see Table \@ref(tab:iris-tab).
+To be prepared for the first class **it is mandatory that you install R and Rstudio**
+(a development environment for R) **before the classes start**.
+Here we point you to the relevant web pages, but if needed you will find tons of
+online material elsewhere (YouTube ;) ) on the step-by-step installation process.
 
-```{r iris-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
+1. To install R head to the [R-project's web page](https://www.r-project.org/)
+click **download R**. Choose a mirror location close to you for a faster download,
+but any will do. Then choose between operative systems. R runs in Mac, 
+Windows and most UNIX-like environments. Read and follow the instructions in site.
+2. To install RStudio head to their [download web site](https://rstudio.com/products/rstudio/download/#download),
+download and install the relevant version for your computer's OS.
 
-You can write citations, too. For example, we are using the **bookdown** 
-package [@R-bookdown] in this sample book, which was built on top of R 
-Markdown and **knitr** [@xie2015]. Bibliography is saved on .bib files in the
-main directory, in this case packages bibliography is created on the
-"packages.bib" file.
+You should **first** install R and only then install Rstudio. Rstudio will look 
+for your R installation, if it is not already there you will have to configure it 
+afterwards, which can be troublesome.
+
+Hopefully you are not yet intimidated, don't be afraid. If you run into
+troubles that cannot solve contact the Teaching Assistants, they'll be glad to 
+help you out. See you in the next chapter and class!
