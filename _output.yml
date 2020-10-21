@@ -10,8 +10,8 @@ bookdown::gitbook:
     edit: https://github.com/WIS-Rcourse/WIS_Rcourse_book/edit/master/%s
     sharing:
       github: yes
-      facebook: yes
-      twitter: yes
+      twitter: no
+      facebook: no
       all: []
     download: []
   highlight: tango
