@@ -2,31 +2,37 @@
 
 ## What will this course be about?
 
-This will be an introductory course to programming in R and biological data
-analysis. We will learn to load data into R, mainly from tables but also 
-biologically oriented data formats such as FASTA files. It is primarily directed
-to graduate students in the Life Sciences at the Weizmman Institute of Science
+This will be an introductory course to programming in **R** and biological data
+analysis. It is primarily directed
+to graduate students in the Life Sciences at the Weizmann Institute of Science
 but open for auditors of neighboring institutions. There are no prerequisites
 for the course, we will build from the most basic analysis concepts and
-operations to the more complex ones throughout the course. We will not delve
-deeply into the algorithmic nature of some tools, but rather focus on 
-understanding the intuition and enable students to perform and understand
-widely used analysis such as PCA, hierarchical clustering and linear regression.
+operations to more complex ones throughout the course. We will not delve
+deeply into the mathematical guts of the tools and algorithms, but rather focus on 
+understanding the general concepts and enable students to perform and understand
+widely used analytical tools such as PCA, hierarchical clustering, linear regression,
+and differential gene expression.
 
 ## What is R and why learning R?
 
 R is a programming language, and as such is at heart a way to give instructions 
-to computers. It is widely used from academia to industry for its emphasis on 
-statistics and graphics. R is also free software, and it is licensed under a
-GNU General Public License, which allows its use even for commercial purposes 
-without the need to pay a fee or usage license.
+to computers. But in general R is mostly used as an statistical and data analysis 
+environment, a virtual bench to work with data. R is also free software, it is 
+licensed under a GNU General Public License, this means that anyone can use it 
+to create programs, even for commercial purposes, without the need to pay a
+fee or a usage license to the language creators. R is widely used in quantitative
+and data intensive research fields as well as by corporate giants such as Google
+and Microsoft.
 
-R is a quite popular language, currently ranks as 7th most popular language in the
-world and 4th in the US, according to the [PYPL index](https://pypl.github.io/PYPL.html).
+R has become a quite popular language, at the time of writing R ranks as 7th most popular 
+language in the world and 4th in the US, according to 
+the [PYPL index](https://pypl.github.io/PYPL.html); which ranks the languages 
+by how many searches are done looking for tutorials of the different languages.
 
-But probably most important for us is, that many scientists, bioinformaticians, and software 
-developers have organized to establish the [Bioconductor Project](https://bioconductor.org/).
-A project which purpose is to develop R packages, code that extends R 
+And most importantly for us is, that many scientists, bioinformaticians, and software 
+developers that work in Life Sciences research have worked together to establish the 
+[Bioconductor Project](https://bioconductor.org/).
+A project which purpose is to develop R packages, code that extends R's
 functionality, enabling a more straight-forward biologically-oriented data analysis. 
 
 ## Install R and Rstudio
@@ -34,7 +40,7 @@ functionality, enabling a more straight-forward biologically-oriented data analy
 To be prepared for the first class **it is mandatory that you install R and Rstudio**
 (a development environment for R) **before the classes start**.
 Here we point you to the relevant web pages, but if needed you will find tons of
-online material elsewhere (YouTube ;) ) on the step-by-step installation process.
+online material elsewhere on the [step-by-step installation process](https://www.datamentor.io/r-programming/#run-r-programming).
 
 1. To install R head to the [R-project's web page](https://www.r-project.org/)
 click **download R**. Choose a mirror location close to you for a faster download,
@@ -47,6 +53,7 @@ You should **first** install R and only then install Rstudio. Rstudio will look
 for your R installation, if it is not already there you will have to configure it 
 afterwards, which can be troublesome.
 
-Hopefully you are not yet intimidated, don't be afraid. If you run into
-troubles that cannot solve contact the Teaching Assistants, they'll be glad to 
-help you out. See you in the next chapter and class!
+We hope that while installing R you don't get intimidated by the process, 
+don't be afraid. If you run into troubles that you cannot solve, contact the
+Teaching Assistants, they'll be glad to help you out. See you in the next 
+chapter and class!

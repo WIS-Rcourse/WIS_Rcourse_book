@@ -22,14 +22,14 @@ large scale data analysis using R' taught at the Weizmann Institute of Science.
 
 |**Lecturers** | |
 |:--|--:|
-|[Emmanuel Levy](https://www.weizmann.ac.il/sb/faculty_pages/ELevy/people.html) |![](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.weizmann.ac.il%2Fsb%2Ffaculty_pages%2FELevy%2Fimages%2Fpeople%2Felevy.jpg&f=1&nofb=1){height=100px}|
-|[Schraga Schwartz](https://www.weizmann.ac.il/molgen/Schwartz/) |![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cnaf.org.cn%2Fwp-content%2Fuploads%2F2019%2F08%2FSchraga-Schwartz.jpg){height=100px} |
-|[Igor Ulitzky](https://www.weizmann.ac.il/Biological_Regulation/IgorUlitsky/home) |![](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblavatnikawards.org%2Fmedia%2Ffiler_public_thumbnails%2Ffiler_public%2Fd4%2Fee%2Fd4ee2659-4384-4993-885d-06b864213180%2Figor_ulitsky_headshot-250x375.jpg__445x564_q85.jpg){height=100px}|
+|[Emmanuel Levy](https://www.weizmann.ac.il/sb/faculty_pages/ELevy/people.html) |![](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.weizmann.ac.il%2Fsb%2Ffaculty_pages%2FELevy%2Fimages%2Fpeople%2Felevy.jpg&f=1&nofb=1){height=120px}|
+|[Schraga Schwartz](https://www.weizmann.ac.il/molgen/Schwartz/) |![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cnaf.org.cn%2Fwp-content%2Fuploads%2F2019%2F08%2FSchraga-Schwartz.jpg){height=120px} |
+|[Igor Ulitzky](https://www.weizmann.ac.il/Biological_Regulation/IgorUlitsky/home) |![](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblavatnikawards.org%2Fmedia%2Ffiler_public_thumbnails%2Ffiler_public%2Fd4%2Fee%2Fd4ee2659-4384-4993-885d-06b864213180%2Figor_ulitsky_headshot-250x375.jpg__445x564_q85.jpg){height=120px}|
 
 |**Teaching Assistants** | |
 |:--|--:|
-|[Miguel García](https://angelcampos.github.io/)| ![](https://pbs.twimg.com/profile_images/1315038164222967810/atIJmERS_400x400.jpg){height=100px}|
-|[Yaara Finkel](mailto:yaara.finkel@weizmann.ac.il)| |
+|[Miguel García](https://angelcampos.github.io/)| ![](https://pbs.twimg.com/profile_images/1315038164222967810/atIJmERS_400x400.jpg){height=120px}|
+|[Yaara Finkel](mailto:yaara.finkel@weizmann.ac.il)|![](media/yaara.jpg){height=120px}|
 |[Hugo Schweke](mailto:hugo.schweke@weizmann.ac.il)| |
 
 |**Former TAs** | |

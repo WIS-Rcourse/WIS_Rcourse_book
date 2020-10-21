@@ -2,11 +2,18 @@ bookdown::gitbook:
   css: style.css
   config:
     toc:
+      collapse: section
       before: |
-        <li><a href="./">WIS Rcourse Book</a></li>
+        <li><strong><a href="./">WIS Rcourse Book</a></strong></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    download: ["pdf", "epub"]
+    edit: https://github.com/WIS-Rcourse/WIS_Rcourse_book/edit/master/%s
+    sharing:
+      github: yes
+      facebook: yes
+      twitter: yes
+      all: []
+    download: []
   highlight: tango
   includes:
     after_body: disqus.html
@@ -15,5 +22,5 @@ bookdown::pdf_book:
     in_header: preamble.tex
   latex_engine: xelatex
   citation_package: natbib
-  keep_tex: yes
+  keep_tex: no
 bookdown::epub_book: default
