@@ -2,4 +2,4 @@ presentation
 intro
 what-will-this-course-be-about
 what-is-r-and-why-learning-r
-installation-and-rstudio
+install-r-and-rstudio

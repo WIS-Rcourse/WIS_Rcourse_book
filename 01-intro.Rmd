@@ -29,7 +29,7 @@ developers have organized to establish the [Bioconductor Project](https://biocon
 A project which purpose is to develop R packages, code that extends R 
 functionality, enabling a more straight-forward biologically-oriented data analysis. 
 
-## Installation and Rstudio
+## Install R and Rstudio
 
 To be prepared for the first class **it is mandatory that you install R and Rstudio**
 (a development environment for R) **before the classes start**.
