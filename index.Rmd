@@ -28,13 +28,13 @@ large scale data analysis using R' taught at the Weizmann Institute of Science.
 
 |**Teaching Assistants** | |
 |:--|--:|
-|[Miguel García](https://angelcampos.github.io/)| ![](https://pbs.twimg.com/profile_images/1315038164222967810/atIJmERS_400x400.jpg){height=120px}|
+|[Miguel García](https://angelcampos.github.io/)|![](media/miguel.jpg){height=120px}|
 |[Yaara Finkel](mailto:yaara.finkel@weizmann.ac.il)|![](media/yaara.jpg){height=120px}|
-|[Hugo Schweke](mailto:hugo.schweke@weizmann.ac.il)| |
+|[Hugo Schweke](mailto:hugo.schweke@weizmann.ac.il)|![](media/hugo.jpg){height=120px}|
 
 |**Former TAs** | |
 |:--|--:|
-|[Benjamin Dubreuil](mailto:dubreuil.benjamin@gmail.com)| |
+|[Benjamin Dubreuil](mailto:dubreuil.benjamin@gmail.com)|![](media/benjamin.jpg){height=120px}|
 
 **Contributing to the book**
 
